@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #hoverBox {
+    padding: 20px;
+    background: #f0f0f0;
+    transition: all 0.3s;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+  }
+  .slide.active { display: block; }
+  
+  .tab {
+    padding: 10px;
+    background: #ddd;
+    cursor: pointer;
+  }
+  .tab.active { background: #4CAF50; }
+  
+  .content { display: none; }
+  .content.active { display: block; }
+  
+  input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+  }

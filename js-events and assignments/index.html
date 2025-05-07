@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Interactive Playground 🎮</h1>
+
+  <!-- SECTION 1: Event Handling -->
+  <section class="event-section">
+    <h2>🎈 Event Handling</h2>
+    <button id="clickBtn">Click Me!</button>
+    <div id="hoverBox">Hover Over Me 👀</div>
+    <button id="secretBtn">Double-Click for Secret!</button>
+  </section>
+
+  <!-- SECTION 2: Interactive Elements -->
+  <section class="interactive-section">
+    <h2>🎮 Interactive Components</h2>
+    <button id="colorBtn">Change My Color!</button>
+    
+    <!-- Image Slideshow -->
+    <div class="slideshow">
+      <img src="img/cap.jpg " class="slide active" alt="Description of image 1">
+      <img src="img/pic.jpg" class="slide" alt="Description of image 2">
+      <img src="img/g.png" class="slide" alt="Description of image 3">
+      <button id="prevBtn">⬅️</button>
+      <button id="nextBtn">➡️</button>
+    </div>
+
+    <!-- Accordion -->
+    <div class="accordion">
+      <div class="tab">Tab 1</div>
+      <div class="content">Content for Tab 1</div>
+      <div class="tab">Tab 2</div>
+      <div class="content">Content for Tab 2</div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: Form Validation -->
+  <section class="form-section">
+    <h2>📋 Form Validation</h2>
+    <form id="myForm">
+      <input type="text" id="name" placeholder="Name (Required)">
+      <span id="nameFeedback"></span>
+      
+      <input type="email" id="email" placeholder="Email">
+      <span id="emailFeedback"></span>
+      
+      <input type="password" id="password" placeholder="Password (Min 8 chars)">
+      <span id="passwordFeedback"></span>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
